@@ -1,0 +1,17 @@
+name: NameTags
+version: '1.0'
+main: org.tekkabyte.nameTags.NameTags
+api-version: '1.21'
+softdepend:
+  - PlaceholderAPI
+  - LuckPerms
+
+commands:
+  nametags:
+    description: Rebuild all nametags
+    usage: /nametags rebuild
+    permission: betternametags.admin
+
+permissions:
+  betternametags.admin:
+    default: op

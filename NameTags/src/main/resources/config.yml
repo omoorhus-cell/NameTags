@@ -1,0 +1,3 @@
+settings:
+  # How often to refresh the TEXT (hp/ping/suffix). 20 ticks = 1s
+  text-refresh-ticks: 20
